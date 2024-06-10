@@ -126,7 +126,7 @@ const options = {
 }
 
 function setup(){
-  canvas = createCanvas(windowWidth, windowHeight); 
+  canvas = createCanvas(windowWidth,windowHeight); 
 
   // Create a tile map with the options declared
   myMap = mappa.tileMap(options); 
